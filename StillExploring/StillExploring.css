@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lora&display=swap');
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+.section-three {
+    background: white;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.top {
+    width: 60%;
+    margin: 0 20% 0 20%;
+}
+
+.section-three h1 {
+    font-size: 48.8px;
+    font-family: 'Lora', serif;
+
+}
+
+.section-three h5 {
+    font-weight: bold;
+    color: #4f5c63;
+    font-size: 22px;
+    line-height: 34px;
+    margin: 0 0 30px 0;
+
+}
+
+.flex-container {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 0 0 0;
+}
+
+.stillExploring {
+    background: #041721;
+    color: white;
+    width: 47%;
+    padding: 50px 0px 20px 50px;
+    text-align: left;
+    font-family:'Lora', serif;
+}
+
+.stillExploring span {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #4f5c63;
+    font-weight: bold;
+
+}
+
+.stillExploring p {
+    font-size: 26px;
+    height: 120px;
+    width: 300px;
+    padding: 10px 0 0 0;
+}
+
+.stillExploring button {
+    background: #68db8f;
+    border: 2px #68db8f solid;
+    border-radius: 3px;
+    width: 50%;
+    text-align: center;
+    color: black;
+    padding: 12px 0 12px 0;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+
+}
+
+.stillExploring button:hover {
+    background: #041721;
+    border: 2px white solid;
+    color: white;
+    transition: 0.35s;
+}
