@@ -1,0 +1,43 @@
+.section-two {
+    padding: 170px 0 40px 0;
+    background-image: url(20190731_0913181.png);
+    /* opacity: 0.1; */
+    background-size: cover;
+    background-position: 0 -150px;
+    background-repeat: no-repeat;
+    background-color: rgb(229,236,235,0.1);
+    
+
+}
+
+.section-two #text {
+    opacity: 2;
+
+}
+
+.section-two h6 {
+    text-align: left;
+    color: #6f7384;
+    font-weight: bold;
+    padding: 0 0 40px 0;
+}
+
+.section-two p {
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 2.9em;
+    letter-spacing: -2px;
+    line-height: 55px;
+    text-align: left;
+    opacity: 1;
+
+}
+
+.section-two button {
+    padding: 15px 50px 15px 50px;
+    background-color: #68db8f;
+    border: #68db8f 1px solid;
+    color: black;
+    font-size: 1.2em;
+    margin: 60px 0 50px 0 ;
+}
