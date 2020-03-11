@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lora&display=swap');
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.section-four {
+    background: #f4fbf7;
+    text-align: center;
+    padding: 80px;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.section-four h1 {
+    font-family: 'Lora', serif;
+    font-size: 43px;
+    padding: 0 0 40px 0;
+    letter-spacing: -2px;
+    
+}
+
+.section-four span {
+    font-size: 1.6em;
+    text-align: center;
+    color: #a0a5bb;
+    font-weight: bold;
+    padding: 0 50px 0 50px;
+}
+
+.section-five {
+    text-align: center;
+}
+
+.section-five h1 {
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    padding: 30px;
+}
+
+.section-five button {
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 15px 70px 15px 70px;
+    background-color: #041721;
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    margin: 0 0 50px 0;
+}
+
+footer {
+    padding: 70px 0 80px 0;
+    background: #041721;
+    color: white;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column1 {
+    width: 15%;
+    padding: 0 0 50px 20px;
+
+}
+
+.column1 img {
+    padding: 0 0 20px 0;
+}
+
+.column1 b {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 0px;
+
+}
+
+.plus-sign {
+    color: #5bc180;
+    font-weight: bold;
+}
+
+.column1 small {
+    font-size: 10px;
+    font-weight: lighter;
+    color: #a0a5bb;
+}
+
+.column2 {
+    margin: 0 0 0 0;
+    width: 10%;
+    padding: 50px 0 0 0;
+}
+
+.column2 p {
+    padding: 0 0 0 0;
+    font-size: 21px;
+    font-family: 'Lora', serif;
+    line-height: 20px;
+}
+
+.column3 {
+    width: 15%;
+    padding: 50px 0 0 0;
+}
+
+.column3 span {
+    font-family: 'Lora', serif;
+    color: white;
+    font-size: 18px;
+
+}
+
+.column3 p {
+    padding: 0;
+    margin: -5px 0 0 0;
+    font-size: 16px;
+    color: #6f7384;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.column4 input {
+    margin: 5px 0 0 0;
+    padding: 13px 0px 13px 15px;
+    font-style: italic;
+    background: #041721;
+    border: solid 1px #6f7384;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    outline: none;
+
+}
+
+.column4 button {
+    padding: 13px 27px 13px 27px;
+    background: #68db8f;
+    color: #041721;
+    border: 1px solid #68db8f;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.column4 p {
+    color: #6f7384;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: lighter;
+}
+
+.column4 small {
+    font-size: 19px;
+    line-height: 6px;
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 15px 0 0 0;
+
+}
+
+span i {
+    font-size: 100px;
+    color: red;
+
+}
+
+footer p {
+}
+
+footer span {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #6f7384;
+
+}
