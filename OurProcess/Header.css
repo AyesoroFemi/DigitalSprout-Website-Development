@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lora&display=swap');
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+/* COLORS */
+
+.greens {
+    color: #68db8f;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: lightslategray;
+}
+
+.red {
+    color: red;
+}
+
+.bg-darkgreen {
+    background-color: #041721;
+}
+
+
+/* FONTS */
+
+.font-one {
+    font-family:  'Lora', serif;
+}
+
+.font-two {
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+
+/* SECTION ONE */
+
+header {
+    padding-top: 30px;
+    text-align: center;
+    background: #041721;
+    color: lightslategray;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.navbar.mobile-logo {
+    display: none;
+}
+
+.text-grey {
+    padding: 20px;
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: lightslategray;
+    font-size: 25px;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.text-grey :hover {
+    text-decoration: line-through;
+    text-decoration-color: mediumaquamarine;
+    color: white;
+    
+}
+
+.not-main {
+    display: inline-block;
+    color: white;
+    padding: 230px 180px 100px 180px;
+    
+}
+
+.not-main p {
+    color: lightslategray;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 19px;
+    
+}
+
+.not-main h2 {
+    font-size: 73px;
+    letter-spacing: -4px;
+    font-family: 'Lora', serif;
+} 
+
+ /* MEDIA QUERY */
+
+ @media only screen and (max-width: 767px) {
+    .hide {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: none;
+    }
+    
+    .not-main {
+        display: inline-block;
+        color: white;
+        padding: 255px 0 155px 0;
+    }
+
+    .not-main h2 {
+        font-size: 32px;
+        letter-spacing: -2px;
+        padding: 0 40px 0 40px;
+    } 
+
+    .not-main h5 {
+        padding: 25px 60px 0 60px;
+        color: #6f7384;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        font-size: 14px;
+    
+    }
+
+    .not-main button {
+        padding: 15px 30px 15px 30px;
+        background-color: #68db8f;
+        border: #68db8f 1px solid;
+        color: black;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin: 50px 0 20px 0 ;
+    }
+
+}
+
+
+
+/* SECTION 2 - OUR CORE VALUES */
+
+.core-values {
+    text-align: center;
+    padding: 100px 0 50px 0;
+    font-size: 23px;
+    background: #f4fbf7;
+    
+}
+
+.core-values h1 {
+    font-family: 'Lora', serif;
+    font-size: 48.8px;
+
+}
+
+.core-values img {
+    height: 100px;
+    color: #68db8f;
+    margin: 20px 0 40px 0;
+}
+
+.core-values p {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 767px) {
+    .core-values .row {
+        padding: 0 50px 20px 50px;
+    }
+    
+    .core-values {
+        text-align: center;
+        background: #f4fbf7;
+        padding: 50px 0 0 0;
+        
+    }
+
+    .core-values h1 {
+        font-size: 32px;
+
+    }
+
+    .core-values img {
+        height: 64px;
+        color: #68db8f;
+        margin: 5px 0 10px 0;
+    }
+
+    .core-values p {
+        padding: 0 5px 0 5px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+}
+
+
+/* SECTION THREE - WHAT OUR CLIENTS SAID ABOUT US */
+
+.section-three {
+    padding: 56px 0 0 0;
+}
+
+.section-three h1 {
+    font-size: 48.8px;
+    font-family: 'Lora', serif;
+    padding: 0 100px 0 100px;
+}
+
+.col {
+    background: #041721;
+    text-align: left;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin:  60px 20px 0 0;
+}
+
+.col-container {
+    padding: 50px 80px 80px 110px;
+}
+
+.col-container h2 {
+    font-family: 'Lora', serif;
+}
+
+.col-container p {
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 30px 0 30px 0;
+
+}
+
+.col-container img {
+    float: left;
+}
+
+
+.col-container span {
+    float: left;
+    margin: 30px 0 0 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 767px) {
+
+    .section-three {
+        padding: 0;
+    }
+
+    .section-three h1 {
+        font-size: 24px;
+        padding: 60px 70px 40px 70px;
+
+    }
+
+    .col {
+        background: #041721;
+        text-align: left;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 20px;
+        font-family: 'Didact Gothic', sans-serif;
+        margin: 0 10px 0 10px;
+     }
+    
+    .section-three h2 {
+        font-size: 20px;
+    }
+
+     .col-container {
+        text-align: left;
+        padding: 86px 50px 0 37px;
+     }
+
+    .col-container p {
+        font-family: 'Didact Gothic', sans-serif;
+        padding: 20px 0 0 0;
+        font-size: 14px;
+    }
+
+    .col-container img {
+        float: left;
+        border-radius: 100px;
+        margin: 10px 0 30px 0;
+    }
+
+
+    .col-container span {
+         float: left;
+        margin: 30px 0 0 20px;
+    }
+}
+
+
+/* SECTION FOUR */
+
+.section-four {
+    background: #f4fbf7;
+    text-align: center;
+    padding: 80px 0 80px 0;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.section-four h1 {
+    font-family: 'Lora', serif;
+    font-size: 45px;
+    display: inline-block;
+    padding: 0 0 0 0;
+    letter-spacing: -2px;
+    
+}
+
+.section-four span {
+    display: inline-block;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 767px) {
+
+    .section-four {
+        background: white;
+        text-align: center;
+        padding: 75px 0 75px 0;
+        font-family: 'Didact Gothic', sans-serif;
+    
+    }
+    
+    .section-four h1 { 
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        display: inline-block;
+        padding: 0 0 40px 0;
+        letter-spacing: -2px;
+        
+    }
+    
+    .section-four span {
+        display: inline-block;
+    }
+
+
+} 
+
+
+/* SECTION FIVE */
+
+
+.section-five {
+    text-align: center;
+    padding: 70px 0 0 0;
+}
+
+.section-five h1 {
+    display: inline-block;
+    font-size: 48.8px;
+    letter-spacing: -2px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    padding: 0 150px 0 150px;
+
+}
+
+.section-five button {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #041721;
+    border: #041721 1px solid;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 69px 15px 69px;
+    font-size: 20px;
+    margin: 40px 0 60px 0;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 767px) {
+
+    .section-five {
+        background: #f4fbf7;
+        text-align: center;
+        padding: 0 0 0 0;
+}   
+    .section-five h1 {
+        display: inline-block;
+        font-size: 20px;
+        letter-spacing: -2px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        padding: 32px 88px 5px 88px;
+    
+    }
+    .section-five button {
+        font-family: 'Didact Gothic', sans-serif;
+        background-color: white;
+        border: white 1px solid;
+        border-radius: 5px;
+        color: black;
+        padding: 0;
+        font-size: 14px;
+        margin: 0 0 20px 0;
+    }
+
+}
+
+  /* FOOTER */
+
+/* SPACES */
+
+.margin {
+    padding-top: 20px;
+}
+
+.padding {
+    padding: 0 10px 0 10px;
+}
+
+footer {
+    padding: 50px 0 50px 0;
+    color: white;
+
+ }
+
+footer sub {
+     font-size: 20px;
+     font-weight: lighter;
+ }
+
+footer img {
+    padding: 0 0 20px 0;
+}
+
+footer h5 {
+    font-family: 'Lora', serif;
+}
+
+footer small {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #6f7384;
+    
+}
+
+footer sub {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    color: #6f7384;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.email input {
+    padding: 10px 0 10px 15px ;
+    font-style: italic;
+    border: solid 1px #6f7384;
+    border-right: #6f7384;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    outline: none;
+    color: #6f7384;
+
+}
+
+.email input:focus {
+    border: white 1px solid;
+    border-right: #68db8f;
+    color: white;
+    text-decoration: none;
+}
+
+.email button {
+    padding: 5px 0 5px 0;
+    background: #68db8f;
+    border: 1px solid #68db8f;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #041721;
+
+}
+
+.email button:focus {
+    outline: none;
+    background: #52ac70;
+    border: 1px solid #52ac70;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 767px) {
+    footer {
+        padding: 50px 0 50px 0;
+        color: white;
+        text-align: center;
+     }
+
+    .col {
+        text-align: center;
+     }
+
+    .col-md-3 {
+
+        margin: 10px 0 10px 0;
+    }
+
+}
