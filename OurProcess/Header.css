@@ -400,8 +400,8 @@ li a:hover {
     }
     .section-five button {
         font-family: 'Didact Gothic', sans-serif;
-        background-color: white;
-        border: white 1px solid;
+        background-color: #f4fbf7;
+        border: #f4fbf7 1px solid;
         border-radius: 5px;
         color: black;
         padding: 0;
