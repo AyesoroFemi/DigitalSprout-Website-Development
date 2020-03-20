@@ -1,0 +1,219 @@
+@font-face{
+    font-family:"Lora";
+    src:url("../Lora/Lora-Regular.ttf");
+}
+@font-face{
+    font-family:"Sofia Pro";
+    src:url("../Sofia/Sofia\ Pro\ Light.otf");
+}
+
+:root {
+    --dark:#041721;
+    --light:#ffffff;
+    --font-one:"Lora";
+    --font-two:"Sofia Pro";
+}
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px 421px;
+}
+.box1{
+     grid-column: 1;
+    grid-row:1/3;
+}
+
+/* .box2{ */
+    /* border:3px solid blue; */
+/* } */
+.box3{
+    grid-column: 1; 
+    grid-row:2/4; 
+}
+.wrapper .card img{
+    width:92%;
+    margin:20px 5%;
+   
+}
+.wrapper .card-content{
+    background-color:var(--dark);
+    margin-left:50px;
+    max-width:100%;
+    /* min-height: 420px; */
+}
+.wrapper .card-content .service-a {
+    font-family:var(--font-one);
+    font-style: normal;
+    font-weight:normal;
+    font-size:24px;
+    line-height: 32px;
+    color:var(--light);
+    margin-left:32px;
+    padding-top:30px;
+}
+.wrapper .card-content .service-b{
+    font-family:var(--font-two);
+    font-style: normal;
+    font-size: 14px;
+    line-height:19px;
+    color: var(--light);
+    margin-left: 30px;
+    padding-top:25px;
+}
+.wrapper .card-content .service-c{
+    font-family:var(--font-one);
+    font-size:13px;
+    line-height:190%;
+    color: var(--light);
+    margin-left:50px;
+    padding-top:25px;
+    list-style: square;
+}
+/* End of session on Strategy */
+
+/* Session on Design */
+
+.wrapper-a{
+    padding-top:30px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px 477px;
+}
+
+.wrapper-a .card img{
+    width:92%;
+    margin:20px 5%;
+   
+}
+.wrapper-a .card-content{
+    background-color:var(--dark);
+    margin-left:50px;
+    max-width:100%;
+    /* min-height: 420px; */
+}
+.wrapper-a .card-content .service-a {
+    font-family:var(--font-one);
+    font-style: normal;
+    font-weight:normal;
+    font-size:32px;
+    line-height: 41px;
+    color:var(--light);
+    margin-left:32px;
+    padding-top:30px;
+}
+.wrapper-a .card-content .service-b{
+    font-family:var(--font-two);
+    font-style: normal;
+    font-weight:300;
+    opacity: 0.7;
+    font-size: 14px;
+    line-height:19px;
+    color: var(--light);
+    margin-left: 30px;
+    padding-top:25px;
+}
+.wrapper-a .card-content .service-c{
+    font-family:var(--font-one);
+    font-size:18px;
+    line-height:190%;
+    color: var(--light);
+    margin-left:50px;
+    padding-top:25px;
+    list-style: square;
+}
+/* End of session on Design */
+
+/* Growth Session */
+.wrapper-b{
+    padding-top:30px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px 420px;
+}
+
+.wrapper-b .card img{
+    width:92%;
+    margin:20px 5%;
+   
+}
+.wrapper-b .card-content{
+    background-color:var(--dark);
+    margin-left:50px;
+    max-width:100%;
+    /* min-height: 420px; */
+}
+.wrapper-b .card-content .service-a {
+    font-family:var(--font-one);
+    font-style: normal;
+    font-weight:normal;
+    font-size:32px;
+    line-height: 41px;
+    color:var(--light);
+    margin-left:32px;
+    padding-top:30px;
+}
+.wrapper-b .card-content .service-b{
+    font-family:var(--font-two);
+    font-style: normal;
+    font-weight:300;
+    opacity: 0.7;
+    font-size: 14px;
+    line-height:19px;
+    color: var(--light);
+    margin-left: 30px;
+    padding-top:25px;
+}
+.wrapper-b .card-content .service-c{
+    font-family:var(--font-one);
+    font-size:14px;
+    line-height:190%;
+    color: var(--light);
+    margin-left:50px;
+    padding-top:25px;
+    list-style: square;
+    opacity: 0.7;
+}
+/* End of Growth Session */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 720px) {
+    /* .wrapper{
+        display:none;
+    }
+    #process-a {
+        display:none;
+    }
+    #process-b {
+        display:none;
+    }
+    #process-c {
+        display:none;
+    }
+    #process-d {
+        display:none;
+    } */
+
+
+
+
+}
